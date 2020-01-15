@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <title>External JSS Tutorial</title>
+    <script src="../JS/Helper.js"></script> <!-- include external js -->
+</head>
+<body>
+
+<form  name="webelement" onsubmit="doHelp()" action="#"> <!-- call doHelp, inside Heloper.js file-->
+    <h2>User Details</h2>
+    First Name <br>
+    <input type="text" id="firstname" name="firstname" value="">
+    <br>
+    Last name:<br>
+    <input type="text"  id="lastname" name="lastname" value="">
+    <br><br>
+
+    <label name="msg" id="msg">Please fill the Form</label>
+        <br>
+    <input type="submit" value="Submit">
+    <br>
+</form>
+</body>
+</html>
